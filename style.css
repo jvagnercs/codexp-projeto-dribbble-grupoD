@@ -1,3 +1,8 @@
+@font-face {
+        font-family: wendy;
+        src: url(wendy.ttf);
+    }
+
     html {
         box-sizing: border-box;
         width: 100%;
@@ -27,7 +32,7 @@
         text-align: center;
     }
 
-    .form-signin__form-input-text {
+    .form-signin__input {
         width: 100%;
         height: 40%;
         margin: 50px 0 50px;
@@ -38,11 +43,11 @@
         border-bottom: 2px solid white;
     }
 
-    .form-signin__form-input-text::placeholder {
+    .form-signin__input::placeholder {
         color: rgba(255,255,255,0.8);
     }
 
-    .form-signin__form-input-text:focus {
+    .form-signin__input:focus {
         outline: 0;
     }
 
@@ -87,9 +92,4 @@
         color: white;
         font-weight: bold;
         text-decoration: none;
-    }
-
-    @font-face {
-        font-family: wendy;
-        src: url(wendy.ttf);
     }
